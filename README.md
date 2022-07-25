@@ -33,3 +33,11 @@ The results (shown above) from the one-sample t-test comparing the PSI from the 
 
 ![image](https://user-images.githubusercontent.com/102445183/180699856-76213b48-be7a-4dc4-855b-929ad266892f.png)   
 The results (shown above) from the one-sample t-test comparing the PSI from the Lot 3 sample and the population mean PSI show a p-value of 0.03966, lower than our 0.05 significance level. Therefore, we reject the null hypothesis, and conclude that there is a statistical difference between the sample mean PSI of Lot 3 and the population mean PSI.
+
+
+## Study Design: MechaCar vs Competition
+
+One test that I would use to compare the performance of MechaCars and their competition is a pair two-sample t-test on the highway fuel efficiency. I would use a pair t-test because there are two populations (MechaCars and the competition's cars) and I would be taking a random sample from each, recording the highway fuel efficiency of each car in the sample. I would then apply a base 10 log to the data in order to normalize it, and use the means of the highway fuel efficiency in the pair t-test.
+
+Null Hypothesis: The difference between the mean highway fuel efficiency of MechaCars and the competitor's cars is equal to zero.   
+Alternative Hypothesis: The difference between the mean highway fuel efficiency of MechaCars and the competitor's cars is not equal to zero.
